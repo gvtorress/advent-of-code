@@ -57,7 +57,7 @@ const getPositionBasement = (input) => {
 }
 
 const getInputFromFile = async () => {
-  return await fs.readFile('../Day1/input.txt', { encoding: 'utf8' });
+  return await fs.readFile('./input.txt', { encoding: 'utf8' });
 }
 
 // inputParser
